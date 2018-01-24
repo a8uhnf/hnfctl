@@ -2,16 +2,34 @@
 
 
 [[projects]]
+  branch = "master"
+  name = "github.com/daviddengcn/go-colortext"
+  packages = ["."]
+  revision = "17e75f6184bc9e727756cd0d82e0af58b1fc7191"
+
+[[projects]]
+  name = "github.com/dixonwille/wmenu"
+  packages = ["."]
+  revision = "8ae99891e0b971e497e4a591cf53974f0906a949"
+  version = "v4.0.2"
+
+[[projects]]
   name = "github.com/inconshreveable/mousetrap"
   packages = ["."]
   revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
   version = "v1.0"
 
 [[projects]]
+  name = "github.com/mattn/go-isatty"
+  packages = ["."]
+  revision = "0360b2af4f38e8d38c7fce2a9f4e702702d73a39"
+  version = "v0.0.3"
+
+[[projects]]
   branch = "master"
   name = "github.com/spf13/cobra"
   packages = ["."]
-  revision = "0c34d16c3123764e413b9ed982ada58b1c3d53ea"
+  revision = "f91529fc609202eededff4de2dc0ba2f662240a3"
 
 [[projects]]
   name = "github.com/spf13/pflag"
@@ -19,9 +37,21 @@
   revision = "e57e3eeb33f795204c1ca35f56c44f83227c6e66"
   version = "v1.0.0"
 
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "af50095a40f9041b3b38960738837185c26e9419"
+
+[[projects]]
+  name = "gopkg.in/dixonwille/wlog.v2"
+  packages = ["."]
+  revision = "76a8811f69dff5d130c6b5f0342451b0beb52f37"
+  version = "v2.0.0"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "fd56cc1810ff527dc29fa5ac153938af6d8df6a405c953638f1275f24d6073d9"
+  inputs-digest = "41dc672e33e6e97e0d4d843b05c2057bca945b359cf3156a385382dc9588cd00"
   solver-name = "gps-cdcl"
   solver-version = 1
