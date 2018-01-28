@@ -14,7 +14,9 @@ import (
 	"github.com/dixonwille/wmenu"
 	"github.com/fsnotify/fsnotify"
 )
+
 var FileNames []string
+
 const (
 	TorrentFileSuffix  = ".torrent"
 	DownloadFolderPath = "/home/hanifa/Downloads"
@@ -91,9 +93,11 @@ func downloadWalkFunc(path string, info os.FileInfo, err error) error {
 	}
 	if !info.IsDir() {
 		if strings.HasSuffix(path, TorrentFileSuffix) {
-			fmt.Println("*********************")
-			fmt.Println(path)
+			// fmt.Println("*********************")
+			FileNames = append(FileNames, info.Name())
 		}
+	} else {
+
 	}
 	return nil
 }
