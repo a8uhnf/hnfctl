@@ -13,6 +13,8 @@ func RootCmd() {
 		Long:  "",
 		Run: func(cmd *cobra.Command, args []string) {
 			fmt.Println("---------........")
+			visitDowaloads()
+			watchDownloadFolder()
 		},
 	}
 	rootCmd.AddCommand(NewDeleteCmd())

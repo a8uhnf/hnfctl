@@ -14,6 +14,12 @@
   version = "v4.0.2"
 
 [[projects]]
+  name = "github.com/fsnotify/fsnotify"
+  packages = ["."]
+  revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
+  version = "v1.4.7"
+
+[[projects]]
   name = "github.com/inconshreveable/mousetrap"
   packages = ["."]
   revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
@@ -41,7 +47,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "af50095a40f9041b3b38960738837185c26e9419"
+  revision = "03467258950d845cd1877eab69461b98e8c09219"
 
 [[projects]]
   name = "gopkg.in/dixonwille/wlog.v2"
@@ -52,6 +58,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "41dc672e33e6e97e0d4d843b05c2057bca945b359cf3156a385382dc9588cd00"
+  inputs-digest = "ee9a60dcb4631d65b43394ad61e234d3a9cf48e75937aada9b837e348498a8d2"
   solver-name = "gps-cdcl"
   solver-version = 1
